@@ -4,7 +4,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 # Table of content
 
-* [Pipelines](#Pipelines)
+* [Pipelines](#pipelines)
+* [Differential analysis](#differential-analysis)
 * [Data](#data)
 
 ## Pipelines
@@ -21,6 +22,12 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Metaviz` - visual exploratory data analysis of annotated microbiome data. Java/D3 implementation. Imports metagenomeSeq object, works with phyloseq objects. Web interface with 33 demo datasets, http://metaviz.cbcb.umd.edu/, `metavizr` R package, https://www.bioconductor.org/packages/release/bioc/html/metavizr.html. Docker https://epiviz.github.io/tutorials/metaviz/usingDocker/. GitHub, https://github.com/epiviz/metavizr. Documentation, https://epiviz.github.io/tutorials/metaviz/
     - Wagner, Justin, Florin Chelaru, Jayaram Kancherla, Joseph N Paulson, Alexander Zhang, Victor Felix, Anup Mahurkar, Niklas Elmqvist, and Héctor Corrada Bravo. “Metaviz: Interactive Statistical and Visual Analysis of Metagenomic Data.” Nucleic Acids Research 46, no. 6 (April 6, 2018): 2777–87. https://doi.org/10.1093/nar/gky136.
  
+
+## Differential analysis
+
+- `metagenomeSeq` R package. Differential microbial abundance analysis. New normalization - Cumulative-sum scaling (CSS) - raw counts are divided by the cumulative sum of counts up to a percentile determined using a data-driven approach, e.g., the 75th percentile of each sample’s nonzero count distribution. Zero-inflated Gaussian (ZIG) distribution mixture model that accounts for biases in differential abundance testing resulting from undersampling of the microbial community, https://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html
+    - Paulson, Joseph N, O Colin Stine, Héctor Corrada Bravo, and Mihai Pop. “Differential Abundance Analysis for Microbial Marker-Gene Surveys.” Nature Methods 10, no. 12 (September 29, 2013): 1200–1202. https://doi.org/10.1038/nmeth.2658.
+
 
 ## Data
 

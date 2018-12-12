@@ -7,6 +7,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Pipelines](#pipelines)
 * [Differential analysis](#differential-analysis)
 * [Data](#data)
+* [Misc](#misc)
 
 ## Pipelines
 
@@ -36,6 +37,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - LogMIPE study (Landscape of gut Microbiome - Pan-India Exploration) - FASTQ files from 1004 subjects from 14 geographical locations. Data, https://www.ebi.ac.uk/ena/data/view/PRJEB25642, and scripts for processing them using QIIME or Mothur pipelines, https://github.com/anirbanbhaduri/LogMPIE
     - Dubey, Ashok Kumar, Niyati Uppadhyaya, Pravin Nilawe, Neeraj Chauhan, Santosh Kumar, Urmila Anurag Gupta, and Anirban Bhaduri. “LogMPIE, Pan-India Profiling of the Human Gut Microbiome Using 16S RRNA Sequencing.” Scientific Data 5 (October 30, 2018): 180232. https://doi.org/10.1038/sdata.2018.232.
+
+## Misc
+
+- Metagenomics blog https://microbe.land/ and a list of metagenomics-related methods, tools, and many more at the Google Doc [Metagenomics - Tools, Methods and Madness](https://docs.google.com/document/d/e/2PACX-1vQbLMrFcpFh8asvZsUv95wQWwTzQYBgtadDiVKffSA33Oi_vZNdi0czrEPUL1seOZLd1HaqWs29H6hp/pub)
 
 
 # Local files and folders

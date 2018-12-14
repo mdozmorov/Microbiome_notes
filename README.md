@@ -42,6 +42,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - Metagenomics blog https://microbe.land/ and a list of metagenomics-related methods, tools, and many more at the Google Doc [Metagenomics - Tools, Methods and Madness](https://docs.google.com/document/d/e/2PACX-1vQbLMrFcpFh8asvZsUv95wQWwTzQYBgtadDiVKffSA33Oi_vZNdi0czrEPUL1seOZLd1HaqWs29H6hp/pub)
 
+- `VAMB` - Binning metagenomic sequences using variational autoencoders for representing the data for clustering, visualization. Uses tetranucleotide (ATCG) frequency of 4-mers, and their abundance (sequencing depth). Application to human gut data, benchmarking against other methods. https://github.com/jakobnissen/vamb
+     - Nissen, Jakob Nybo, Casper Kaae Sonderby, Jose Juan Almagro Armenteros, Christopher Heje Groenbech, Henrik Bjorn Nielsen, Thomas Nordahl Petersen, Ole Winther, and Simon Rasmussen. “Binning Microbial Genomes Using Deep Learning.” BioRxiv, January 1, 2018, 490078. https://doi.org/10.1101/490078.
+
 
 # Local files and folders
 

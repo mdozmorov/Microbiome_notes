@@ -45,6 +45,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `VAMB` - Binning metagenomic sequences using variational autoencoders for representing the data for clustering, visualization. Uses tetranucleotide (ATCG) frequency of 4-mers, and their abundance (sequencing depth). Application to human gut data, benchmarking against other methods. https://github.com/jakobnissen/vamb
      - Nissen, Jakob Nybo, Casper Kaae Sonderby, Jose Juan Almagro Armenteros, Christopher Heje Groenbech, Henrik Bjorn Nielsen, Thomas Nordahl Petersen, Ole Winther, and Simon Rasmussen. “Binning Microbial Genomes Using Deep Learning.” BioRxiv, January 1, 2018, 490078. https://doi.org/10.1101/490078.
 
+- MetaMap - microbial reads in human RNA-seq data. Unmapped reads ran through CLARK-S to get OTU tables. Data http://gigadb.org/dataset/100456.
+    - Simon, L M, S Karg, A J Westermann, M Engel, A H A Elbehery, B Hense, M Heinig, L Deng, and F J Theis. “MetaMap: An Atlas of Metatranscriptomic Reads in Human Disease-Related RNA-Seq Data.” GigaScience 7, no. 6 (June 1, 2018). https://doi.org/10.1093/gigascience/giy070.
+
+- MetaMap web app. Seven visualization methods, interactive links show them. GitHub https://github.com/theislab/MetaMap, and web-tool http://146.107.176.18:3838/MetaMap/R/
+    - Simon, Lukas, George Tsitsiridis, Philipp Angerer, and Fabian Theis. “MetaMap, an Interactive Webtool for the Exploration of Metatranscriptomic Reads in Human Disease-Related RNA-Seq Data,” September 30, 2018. https://doi.org/10.1101/425439.
 
 # Local files and folders
 

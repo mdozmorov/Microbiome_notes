@@ -5,6 +5,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 # Table of content
 
 * [Pipelines](#pipelines)
+* [Taxonomy](#taxonomy)
 * [Differential analysis](#differential-analysis)
 * [Data](#data)
 * [Misc](#misc)
@@ -23,6 +24,15 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Metaviz` - visual exploratory data analysis of annotated microbiome data. Java/D3 implementation. Imports metagenomeSeq object, works with phyloseq objects. Web interface with 33 demo datasets, http://metaviz.cbcb.umd.edu/, `metavizr` R package, https://www.bioconductor.org/packages/release/bioc/html/metavizr.html. Docker https://epiviz.github.io/tutorials/metaviz/usingDocker/. GitHub, https://github.com/epiviz/metavizr. Documentation, https://epiviz.github.io/tutorials/metaviz/
     - Wagner, Justin, Florin Chelaru, Jayaram Kancherla, Joseph N Paulson, Alexander Zhang, Victor Felix, Anup Mahurkar, Niklas Elmqvist, and Héctor Corrada Bravo. “Metaviz: Interactive Statistical and Visual Analysis of Metagenomic Data.” Nucleic Acids Research 46, no. 6 (April 6, 2018): 2777–87. https://doi.org/10.1093/nar/gky136.
  
+
+## Taxonomy
+
+- `Kraken` - assigning taxonomic labels to metagenomic DNA sequences. Exact matching of k-mers (31bp) against a database (different versions for memory considerations). Their own optimized algorithm for k-mer match search. https://ccb.jhu.edu/software/kraken2/
+    - Wood, Derrick E., and Steven L. Salzberg. “Kraken: Ultrafast Metagenomic Sequence Classification Using Exact Alignments.” Genome Biology 15, no. 3 (March 3, 2014): R46. https://doi.org/10.1186/gb-2014-15-3-r46.
+
+- `KrakenUniq` - Extension of the original k-mer-based classification with a HyperLogLog algorithm for assessing the coverage of unique k-mers (cardinality). Better handling of false positives. https://github.com/fbreitwieser/krakenuniq
+    - Breitwieser, F. P., D. N. Baker, and S. L. Salzberg. “KrakenUniq: Confident and Fast Metagenomics Classification Using Unique k-Mer Counts.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1568-0.
+
 
 ## Differential analysis
 

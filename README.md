@@ -61,6 +61,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - MetaMap web app. Seven visualization methods, interactive links show them. GitHub https://github.com/theislab/MetaMap, and web-tool http://146.107.176.18:3838/MetaMap/R/
     - Simon, Lukas, George Tsitsiridis, Philipp Angerer, and Fabian Theis. “MetaMap, an Interactive Webtool for the Exploration of Metatranscriptomic Reads in Human Disease-Related RNA-Seq Data,” September 30, 2018. https://doi.org/10.1101/425439.
 
+- `PathSeq` - GATK tool to detect microbial DNA in human sequencing. Reads that do not align to human are progressively aligned to microbial genomes, and a table of detected microbial organisms is generated. https://gatkforums.broadinstitute.org/gatk/discussion/23205/cross-species-contamination-identification-with-pathseq
+
+
 # Local files and folders
 
 - `LogMPIE` - Microbiome Processing Pipeline, Python scripts for running Mothur, QIIME. https://github.com/anirbanbhaduri/LogMPIE

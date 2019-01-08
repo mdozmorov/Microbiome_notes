@@ -46,6 +46,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Data
 
+- MicrobiomeHD database - 28 case-control studies of gut microbiome, ten diseases (IBD, Crohn's, etc.), 16S sequencing. 16S processing pipeline: https://github.com/thomasgurry/amplicon_sequencing_pipeline, Python code to reproduce all analyses: https://github.com/cduvallet/microbiomeHD, raw sequencing data, metadata, OTU tables https://zenodo.org/record/1146764#.XDQHec9KjfY
+    - Duvallet, Claire, Sean M. Gibbons, Thomas Gurry, Rafael A. Irizarry, and Eric J. Alm. “Meta-Analysis of Gut Microbiome Studies Identifies Disease-Specific and Shared Responses.” Nature Communications 8, no. 1 (December 2017). https://doi.org/10.1038/s41467-017-01973-8.
+
 - Database for Preterm Birth Research. Other databases - dbPTB, GEneSTATION. Different studies. Predominantly microbiome, but also CyTOF, RNA-Seq, cell-free DNA and RNA sequencing, and genotyping. Open access. http://www.immport.org/resources/mod
     - Sirota, Marina, Cristel G. Thomas, Rebecca Liu, Maya Zuhl, Payal Banerjee, Ronald J. Wong, Cecele C. Quaintance, et al. “Enabling Precision Medicine in Neonatology, an Integrated Repository for Preterm Birth Research.” Scientific Data 5 (November 6, 2018): 180219. https://doi.org/10.1038/sdata.2018.219. 
 

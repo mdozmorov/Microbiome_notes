@@ -6,6 +6,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 * [Pipelines](#pipelines)
 * [Taxonomy](#taxonomy)
+* [Phylogenetics](#phylogenetics)
 * [Differential analysis](#differential-analysis)
 * [Data](#data)
 * [Misc](#misc)
@@ -33,6 +34,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `KrakenUniq` - Extension of the original k-mer-based classification with a HyperLogLog algorithm for assessing the coverage of unique k-mers (cardinality). Better handling of false positives. https://github.com/fbreitwieser/krakenuniq
     - Breitwieser, F. P., D. N. Baker, and S. L. Salzberg. “KrakenUniq: Confident and Fast Metagenomics Classification Using Unique k-Mer Counts.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1568-0.
 
+## Phylogenetics
+
+- `phyloT` - generates phylogenetic trees from based on the NCBI taxonomy. Input: NCBI scientific names and more, output: tree in Newick and other formats. Results can be visualized in iTOL, interactive Tree Of Life. https://phylot.biobyte.de/
 
 ## Differential analysis
 

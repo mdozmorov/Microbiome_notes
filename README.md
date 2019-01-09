@@ -5,6 +5,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 # Table of content
 
 * [Pipelines](#pipelines)
+* [Downstream analysis](#downstream-analysis)
 * [Taxonomy](#taxonomy)
 * [Phylogenetics](#phylogenetics)
 * [Differential analysis](#differential-analysis)
@@ -25,6 +26,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Metaviz` - visual exploratory data analysis of annotated microbiome data. Java/D3 implementation. Imports metagenomeSeq object, works with phyloseq objects. Web interface with 33 demo datasets, http://metaviz.cbcb.umd.edu/, `metavizr` R package, https://www.bioconductor.org/packages/release/bioc/html/metavizr.html. Docker https://epiviz.github.io/tutorials/metaviz/usingDocker/. GitHub, https://github.com/epiviz/metavizr. Documentation, https://epiviz.github.io/tutorials/metaviz/
     - Wagner, Justin, Florin Chelaru, Jayaram Kancherla, Joseph N Paulson, Alexander Zhang, Victor Felix, Anup Mahurkar, Niklas Elmqvist, and Héctor Corrada Bravo. “Metaviz: Interactive Statistical and Visual Analysis of Metagenomic Data.” Nucleic Acids Research 46, no. 6 (April 6, 2018): 2777–87. https://doi.org/10.1093/nar/gky136.
  
+
+## Downstream analysis
+
+- `microbiome` R package with rich set of functions for microbiome analysis, visualization, statistical analysis. Supports phyloseq objects. Leo Lahti, Sudarshan Shetty et al. (2017). Tools for microbiome analysis in R. Version 1.5.23. URL: http://microbiome.github.com/microbiome
 
 ## Taxonomy
 

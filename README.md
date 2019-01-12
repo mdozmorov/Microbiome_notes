@@ -31,6 +31,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `microbiome` R package with rich set of functions for microbiome analysis, visualization, statistical analysis. Supports phyloseq objects. Leo Lahti, Sudarshan Shetty et al. (2017). Tools for microbiome analysis in R. Version 1.5.23. URL: http://microbiome.github.com/microbiome
 
+- `microbiomeSeq` - An R package for microbial community analysis in an environmental context. GitHub, https://github.com/umerijaz/microbiomeSeq, and tutorial, http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html
+
 ## Taxonomy
 
 - `Kraken` - assigning taxonomic labels to metagenomic DNA sequences. Exact matching of k-mers (31bp) against a database (different versions for memory considerations). Their own optimized algorithm for k-mer match search. https://ccb.jhu.edu/software/kraken2/

@@ -14,6 +14,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Pipelines
 
+- `bioBakery` - an environment for metagenomics analysis. VM running on Vagrantr/VirtualBox, Docker image, Google Cloud and Amazon Machine Image. Homebrew/Linuxbrew installation. AnADAMA2 controls the workflows. Wiki, https://bitbucket.org/biobakery/biobakery/wiki/Home, workflows and tutorials, http://huttenhower.sph.harvard.edu/biobakery_workflows
+    - McIver, Lauren J, Galeb Abu-Ali, Eric A Franzosa, Randall Schwager, Xochitl C Morgan, Levi Waldron, Nicola Segata, and Curtis Huttenhower. “BioBakery: A Meta’omic Analysis Environment.” Edited by John Hancock. Bioinformatics 34, no. 7 (April 1, 2018): 1235–37. https://doi.org/10.1093/bioinformatics/btx754.
+
 - `HUMAnN2`: The HMP Unified Metabolic Analysis Network 2 - functional profiling and pathway reconstruction of metagenomes. Tiered approach: 1) Screening for known species with MetaPhlAn2; 2) mapping against pangenomes; 3) mapping against protein sequences. These mappings can help to assign metabolic and functional annotations. http://huttenhower.sph.harvard.edu/humann2
     - Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15, no. 11 (November 2018): 962–68. https://doi.org/10.1038/s41592-018-0176-y.
 

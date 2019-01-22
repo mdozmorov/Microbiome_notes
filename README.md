@@ -36,6 +36,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `microbiomeSeq` - An R package for microbial community analysis in an environmental context. GitHub, https://github.com/umerijaz/microbiomeSeq, and tutorial, http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html
 
+- WHAM! - data exploration, clustering, visualization, differential expression analysis (ANOVA-like). Input format uses bioBakery pipeline output. Shiny app, https://ruggleslab.shinyapps.io/wham_v1/, GitHub, https://github.com/ruggleslab/jukebox/tree/master/wham_v1
+    - Devlin, Joseph C., Thomas Battaglia, Martin J. Blaser, and Kelly V. Ruggles. “WHAM!: A Web-Based Visualization Suite for User-Defined Analysis of Metagenomic Shotgun Sequencing Data.” BMC Genomics 19, no. 1 (June 25, 2018): 493. https://doi.org/10.1186/s12864-018-4870-z.
+
+
 ## Taxonomy
 
 - `Kraken` - assigning taxonomic labels to metagenomic DNA sequences. Exact matching of k-mers (31bp) against a database (different versions for memory considerations). Their own optimized algorithm for k-mer match search. https://ccb.jhu.edu/software/kraken2/

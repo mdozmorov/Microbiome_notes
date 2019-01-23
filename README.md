@@ -72,6 +72,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 - LogMIPE study (Landscape of gut Microbiome - Pan-India Exploration) - FASTQ files from 1004 subjects from 14 geographical locations. Data, https://www.ebi.ac.uk/ena/data/view/PRJEB25642, and scripts for processing them using QIIME or Mothur pipelines, https://github.com/anirbanbhaduri/LogMPIE
     - Dubey, Ashok Kumar, Niyati Uppadhyaya, Pravin Nilawe, Neeraj Chauhan, Santosh Kumar, Urmila Anurag Gupta, and Anirban Bhaduri. “LogMPIE, Pan-India Profiling of the Human Gut Microbiome Using 16S RRNA Sequencing.” Scientific Data 5 (October 30, 2018): 180232. https://doi.org/10.1038/sdata.2018.232.
 
+- Qiita - database and analysis platform for meta-analysis of microbiome studies. redbiom plugin allows for searching. Web site, https://qiita.ucsd.edu/, GitHub, https://github.com/biocore/qiita
+    - Gonzalez, Antonio, Jose A. Navas-Molina, Tomasz Kosciolek, Daniel McDonald, Yoshiki Vázquez-Baeza, Gail Ackermann, Jeff DeReus, et al. “Qiita: Rapid, Web-Enabled Microbiome Meta-Analysis.” Nature Methods 15, no. 10 (October 2018): 796–98. https://doi.org/10.1038/s41592-018-0141-9.
+
+
 ## Misc
 
 - Links to microbiome-related resources by Guangchuang Yu, https://github.com/GuangchuangYu/bookmarks

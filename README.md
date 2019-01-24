@@ -50,6 +50,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Phylogenetics
 
+- `iTOL` - display and annotation of phylogenetic trees, https://itol.embl.de/
+
 - `phyloT` - generates phylogenetic trees from based on the NCBI taxonomy. Input: NCBI scientific names and more, output: tree in Newick and other formats. Results can be visualized in iTOL, interactive Tree Of Life. https://phylot.biobyte.de/
 
 ## Differential analysis

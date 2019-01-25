@@ -66,6 +66,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 - American Gut project paper (http://americangut.org/). In collaboration with Earth Microbiome Project (http://www.earthmicrobiome.org/), Human Food Project (http://humanfoodproject.com/). Many results and statistical analyses in Methods. Data and results page, http://americangut.org/resources/, Jupyter analysis notebooks, https://github.com/knightlab-analyses/american-gut-analyses
     - McDonald, Daniel, Embriette Hyde, Justine W. Debelius, James T. Morton, Antonio Gonzalez, Gail Ackermann, Alexander A. Aksenov, et al. “American Gut: An Open Platform for Citizen Science Microbiome Research.” Edited by Casey S. Greene. MSystems 3, no. 3 (May 15, 2018). https://doi.org/10.1128/mSystems.00031-18.
 
+- Earth Microbiome Project (EMP), ~100 studies, meta-analysis. 16S V4 sequencing. Deblur to summarize the data at the ASV level. Greengenes and SILVA rRNA gene databases. Analysis, alpha-, beta-, Shannon-, chao2, faith_pd diversity, PCoA. Data on Qiita. Code and data on https://github.com/biocore/emp. Unfiltered and filtered OTU tables at ftp://ftp.microbio.me/emp/release1/otu_tables
+    - Thompson, Luke R., Jon G. Sanders, Daniel McDonald, Amnon Amir, Joshua Ladau, Kenneth J. Locey, Robert J. Prill, et al. “A Communal Catalogue Reveals Earth’s Multiscale Microbial Diversity.” Nature 551, no. 7681 (23 2017): 457–63. https://doi.org/10.1038/nature24621.
+
+
 - MicrobiomeHD database - 28 case-control studies of gut microbiome, ten diseases (IBD, Crohn's, etc.), 16S sequencing. 16S processing pipeline: https://github.com/thomasgurry/amplicon_sequencing_pipeline, Python code to reproduce all analyses: https://github.com/cduvallet/microbiomeHD, raw sequencing data, metadata, OTU tables https://zenodo.org/record/1146764#.XDQHec9KjfY
     - Duvallet, Claire, Sean M. Gibbons, Thomas Gurry, Rafael A. Irizarry, and Eric J. Alm. “Meta-Analysis of Gut Microbiome Studies Identifies Disease-Specific and Shared Responses.” Nature Communications 8, no. 1 (December 2017). https://doi.org/10.1038/s41467-017-01973-8.
 

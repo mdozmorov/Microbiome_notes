@@ -14,6 +14,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Pipelines
 
+- `F1000_workflow` - Microbiome workflow. RSV instead of OTU. Data preprocessing from raw reads. DADA2 pipeline, ASV summary tables using RDP (Greengenes and SILVA are available), phylogenetic tree reconstruction (pangorn). phyloseq downstream analysis, from filtering to agglomeration, transformation, various ordination visualizations (from PCoA, DPCoA, rank PCA, to CCA), supervised learning, graph-based visualization and testing, multi-omics analyses. https://github.com/spholmes/F1000_workflow
+    - Callahan, Ben J., Kris Sankaran, Julia A. Fukuyama, Paul J. McMurdie, and Susan P. Holmes. “Bioconductor Workflow for Microbiome Data Analysis: From Raw Reads to Community Analyses.” F1000Research 5 (2016): 1492. https://doi.org/10.12688/f1000research.8986.2.
+    
 - `bioBakery` - an environment for metagenomics analysis. VM running on Vagrantr/VirtualBox, Docker image, Google Cloud and Amazon Machine Image. Homebrew/Linuxbrew installation. AnADAMA2 controls the workflows. Wiki, https://bitbucket.org/biobakery/biobakery/wiki/Home, workflows and tutorials, http://huttenhower.sph.harvard.edu/biobakery_workflows
     - McIver, Lauren J, Galeb Abu-Ali, Eric A Franzosa, Randall Schwager, Xochitl C Morgan, Levi Waldron, Nicola Segata, and Curtis Huttenhower. “BioBakery: A Meta’omic Analysis Environment.” Edited by John Hancock. Bioinformatics 34, no. 7 (April 1, 2018): 1235–37. https://doi.org/10.1093/bioinformatics/btx754.
 

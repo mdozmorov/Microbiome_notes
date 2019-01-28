@@ -40,6 +40,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `phyloseq` R package for import of the most OTU clustering data formats, preprocessing (normalization, standartization, subsampling, filtering), visualization (various definitions of distance, dimensionality reduction methods), and analysis (comparative) of microbiome data. phyloseq-class with four components (otu_table, sample_data, tax_table, phy_tree). Plotting functions using ggplot2 graphics. http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html, http://joey711.github.io/phyloseq/, https://github.com/joey711/phyloseq
     - McMurdie, Paul J., and Susan Holmes. “Phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data.” Edited by Michael Watson. PLoS ONE 8, no. 4 (April 22, 2013): e61217. https://doi.org/10.1371/journal.pone.0061217.
 
+- Shiny-phyloseq app. http://joey711.github.io/shiny-phyloseq/
+    - McMurdie, P. J., and S. Holmes. “Shiny-Phyloseq: Web Application for Interactive Microbiome Analysis with Provenance Tracking.” Bioinformatics 31, no. 2 (January 15, 2015): 282–83. https://doi.org/10.1093/bioinformatics/btu616.
+
 - `WHAM!` - data exploration, clustering, visualization, differential expression analysis (ANOVA-like). Input format uses bioBakery pipeline output. Shiny app, https://ruggleslab.shinyapps.io/wham_v1/, GitHub, https://github.com/ruggleslab/jukebox/tree/master/wham_v1
     - Devlin, Joseph C., Thomas Battaglia, Martin J. Blaser, and Kelly V. Ruggles. “WHAM!: A Web-Based Visualization Suite for User-Defined Analysis of Metagenomic Shotgun Sequencing Data.” BMC Genomics 19, no. 1 (June 25, 2018): 493. https://doi.org/10.1186/s12864-018-4870-z.
 

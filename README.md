@@ -55,6 +55,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Taxonomy
 
+- `Centrifuge` - microbial classification using BWT and FM index. Compression of genome sequences before indexing, then progressive exact matching of k-mers. Memory-efficient and faster than Kraken. https://github.com/infphilo/centrifuge
+    - Kim, Daehwan, Li Song, Florian P. Breitwieser, and Steven L. Salzberg. “Centrifuge: Rapid and Sensitive Classification of Metagenomic Sequences.” Genome Research 26, no. 12 (2016): 1721–29. https://doi.org/10.1101/gr.210641.116.
+
 - `Kraken` - assigning taxonomic labels to metagenomic DNA sequences. Exact matching of k-mers (31bp) against a database (different versions for memory considerations). Their own optimized algorithm for k-mer match search. https://ccb.jhu.edu/software/kraken2/
     - Wood, Derrick E., and Steven L. Salzberg. “Kraken: Ultrafast Metagenomic Sequence Classification Using Exact Alignments.” Genome Biology 15, no. 3 (March 3, 2014): R46. https://doi.org/10.1186/gb-2014-15-3-r46.
 

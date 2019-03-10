@@ -28,6 +28,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Deblur` - resolves Illumina sequencing errors and creates sub-operational taxonomic unit (sOTU) clusters. Operates on individual samples. Plugin for QIIME2 exists. Competing methods - DADA2, UNOISE2. Methods in the supplementary text S1. https://github.com/biocore/deblur
     - Amir, Amnon, Daniel McDonald, Jose A. Navas-Molina, Evguenia Kopylova, James T. Morton, Zhenjiang Zech Xu, Eric P. Kightley, et al. “Deblur Rapidly Resolves Single-Nucleotide Community Sequence Patterns.” Edited by Jack A. Gilbert. MSystems 2, no. 2 (April 25, 2017). https://doi.org/10.1128/mSystems.00191-16.
 
+- `HiMAP` - high-resolution microbial analysis pipeline for 16S data analysis. Wraps many DADA2 functions. Comparison with DADA2, QIIME, detects more species. https://github.com/taolonglab/himap
+    - Segota, Igor, and Tao Long. “A High-Resolution Pipeline for 16S-Sequencing Identifies Bacterial Strains in Human Microbiome.” BioRxiv, March 4, 2019. https://doi.org/10.1101/565572.
+
 - `HUMAnN2`: The HMP Unified Metabolic Analysis Network 2 - functional profiling and pathway reconstruction of metagenomes. Tiered approach: 1) Screening for known species with MetaPhlAn2; 2) mapping against pangenomes; 3) mapping against protein sequences. These mappings can help to assign metabolic and functional annotations. http://huttenhower.sph.harvard.edu/humann2
     - Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15, no. 11 (November 2018): 962–68. https://doi.org/10.1038/s41592-018-0176-y.
 

@@ -73,6 +73,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `iTOL` - display and annotation of phylogenetic trees, https://itol.embl.de/
 
+- `ggtree` R package for phylogenetic tree visualization, coloring, and annotation. Support for multiple file formats. https://github.com/GuangchuangYu/ggtree
+    - Yu, Guangchuang, David K. Smith, Huachen Zhu, Yi Guan, and Tommy Tsan-Yuk Lam. “Ggtree: An R Package for Visualization and Annotation of Phylogenetic Trees with Their Covariates and Other Associated Data.” Edited by Greg McInerny. Methods in Ecology and Evolution 8, no. 1 (January 2017): 28–36. https://doi.org/10.1111/2041-210X.12628.
+
 - `phyloT` - generates phylogenetic trees from based on the NCBI taxonomy. Input: NCBI scientific names and more, output: tree in Newick and other formats. Results can be visualized in iTOL, interactive Tree Of Life. https://phylot.biobyte.de/
 
 ## Differential analysis

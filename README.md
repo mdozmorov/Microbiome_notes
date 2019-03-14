@@ -124,6 +124,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - MetaMap web app. Seven visualization methods, interactive links show them. GitHub https://github.com/theislab/MetaMap, and web-tool http://146.107.176.18:3838/MetaMap/R/
     - Simon, Lukas, George Tsitsiridis, Philipp Angerer, and Fabian Theis. “MetaMap, an Interactive Webtool for the Exploration of Metatranscriptomic Reads in Human Disease-Related RNA-Seq Data,” September 30, 2018. https://doi.org/10.1101/425439.
 
+- Microbial species behavior in soil. Good visualization, how-to collected in https://github.com/visualization-bioinformatics/cool.visualization.techniques
+    - George, Paul B. L., Delphine Lallias, Simon Creer, Fiona M. Seaton, John G. Kenny, Richard M. Eccles, Robert I. Griffiths, et al. “Divergent National-Scale Trends of Microbial and Animal Biodiversity Revealed across Diverse Temperate Soil Ecosystems.” Nature Communications 10, no. 1 (March 7, 2019): 1107. https://doi.org/10.1038/s41467-019-09031-1.
+
 - `PathSeq` - GATK tool to detect microbial DNA in human sequencing. Reads that do not align to human are progressively aligned to microbial genomes, and a table of detected microbial organisms is generated. https://gatkforums.broadinstitute.org/gatk/discussion/23205/cross-species-contamination-identification-with-pathseq
 
 

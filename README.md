@@ -71,6 +71,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `KrakenUniq` - Extension of the original k-mer-based classification with a HyperLogLog algorithm for assessing the coverage of unique k-mers (cardinality). Better handling of false positives. https://github.com/fbreitwieser/krakenuniq
     - Breitwieser, F. P., D. N. Baker, and S. L. Salzberg. “KrakenUniq: Confident and Fast Metagenomics Classification Using Unique k-Mer Counts.” Genome Biology 19, no. 1 (December 2018). https://doi.org/10.1186/s13059-018-1568-0.
 
+- `metagenomeFeatures` - R package for annotating OTUs with Greengene IDs (v.13.8), RDP and SILVA (in future?). https://bioconductor.org/packages/release/bioc/html/metagenomeFeatures.html
+    - Olson, Nathan D, Nidhi Shah, Jayaram Kancherla, Justin Wagner, Joseph N Paulson, and Hector Corrada Bravo. “MetagenomeFeatures: An R Package for Working with 16S RRNA Reference Databases and Marker-Gene Survey Feature Data.” Edited by Janet Kelso. Bioinformatics, March 1, 2019. https://doi.org/10.1093/bioinformatics/btz136.
+
+
 ## Phylogenetics
 
 - `iTOL` - display and annotation of phylogenetic trees, https://itol.embl.de/

@@ -6,6 +6,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 * [Pipelines](#pipelines)
 * [Downstream analysis](#downstream-analysis)
+  * [Integrative analysis](#integrative-analysis)
 * [Taxonomy](#taxonomy)
 * [Phylogenetics](#phylogenetics)
 * [Differential analysis](#differential-analysis)
@@ -58,6 +59,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `WHAM!` - data exploration, clustering, visualization, differential expression analysis (ANOVA-like). Input format uses bioBakery pipeline output. Shiny app, https://ruggleslab.shinyapps.io/wham_v1/, GitHub, https://github.com/ruggleslab/jukebox/tree/master/wham_v1
     - Devlin, Joseph C., Thomas Battaglia, Martin J. Blaser, and Kelly V. Ruggles. “WHAM!: A Web-Based Visualization Suite for User-Defined Analysis of Metagenomic Shotgun Sequencing Data.” BMC Genomics 19, no. 1 (June 25, 2018): 493. https://doi.org/10.1186/s12864-018-4870-z.
+
+### Integrative analysis
+
+- `MMCA` - microbiome and metabolome correlation analysis pipeline. Five correlation methods (Spearman default), unsupervised (CCA, O2PLS) and supervised (PCA, PLS-DA, OPLS-DA, RF) analyses, network (WGCNA) analysis, KEGG enrichment in modules (Tax4Fun2). Report generation. http://mmca.met-bioinformatics.cn/
+    - Ni, Yan, Gang Yu, Yongqiong Deng, Xiaojiao Zheng, Tianlu Chen, Junfeng Fu, and Wei Jia. “MMCA: A Web-Based Server for the Microbiome and Metabolome Correlation Analysis.” BioRxiv, January 1, 2019, 678813. https://doi.org/10.1101/678813.
 
 
 ## Taxonomy

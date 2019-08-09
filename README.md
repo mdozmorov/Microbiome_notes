@@ -44,6 +44,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Downstream analysis
 
+- `Calour` - Heatmap-based visual exploration of microbiome data. Input - sOTU table (Deblur-processed) and phenodata. Normalization,sorting, filtering, interface with annotation databases, machine learning methods from scikit-learn. Python, Jupyter notebooks. http://biocore.github.io/calour/
+    - Xu, Z.Z., Amir, A., Sanders, J., Zhu, Q., Morton, J.T., Bletz, M.C., Tripathi, A., Huang, S., McDonald, D., Jiang, L., et al. (2019). Calour: an Interactive, Microbe-Centric Analysis Tool. MSystems 4, e00269-18.
+
 - `microbiome` R package with rich set of functions for microbiome analysis, visualization, statistical analysis. Supports phyloseq objects. Leo Lahti, Sudarshan Shetty et al. (2017). Tools for microbiome analysis in R. Version 1.5.23. URL: http://microbiome.github.com/microbiome
 
 - `microbiomeSeq` - An R package for microbial community analysis in an environmental context. GitHub, https://github.com/umerijaz/microbiomeSeq, and tutorial, http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html

@@ -35,6 +35,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `HUMAnN2`: The HMP Unified Metabolic Analysis Network 2 - functional profiling and pathway reconstruction of metagenomes. Tiered approach: 1) Screening for known species with MetaPhlAn2; 2) mapping against pangenomes; 3) mapping against protein sequences. These mappings can help to assign metabolic and functional annotations. http://huttenhower.sph.harvard.edu/humann2
     - Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15, no. 11 (November 2018): 962–68. https://doi.org/10.1038/s41592-018-0176-y.
 
+- `MetaMap` - microbial composition in host's RNA-seq data, a resource and a pipeline. Pipeline, https://www.protocols.io/view/metamap-pipeline-msec6be/metadata, Data and R tutorial, https://github.com/theislab/MetaMap
+    -  Simon LM., et al., Theis FJ. MetaMap: an atlas of metatranscriptomic reads in human disease-related RNA-seq data. https://academic.oup.com/gigascience/article/7/6/giy070/5036539
+
 - `microbial-rnaseq` - microbial composition from host's RNA-seq data, https://github.com/FredHutch/microbial-rnaseq
 
 - `Microbiome Helper` - wrapper scripts and tutorials for metagenomics analysis. https://github.com/LangilleLab/microbiome_helper/wiki.

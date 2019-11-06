@@ -104,6 +104,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `metagenomeSeq` R package. Differential microbial abundance analysis. New normalization - Cumulative-sum scaling (CSS) - raw counts are divided by the cumulative sum of counts up to a percentile determined using a data-driven approach, e.g., the 75th percentile of each sample’s nonzero count distribution. Zero-inflated Gaussian (ZIG) distribution mixture model that accounts for biases in differential abundance testing resulting from undersampling of the microbial community, https://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html
     - Paulson, Joseph N, O Colin Stine, Héctor Corrada Bravo, and Mihai Pop. “Differential Abundance Analysis for Microbial Marker-Gene Surveys.” Nature Methods 10, no. 12 (September 29, 2013): 1200–1202. https://doi.org/10.1038/nmeth.2658.
 
+- `HMP` R package - Hypothesis Testing and Power Calculations for Comparing Metagenomic Samples from HMP. https://cran.r-project.org/web/packages/HMP/index.html. Dirichlet-Multinomial distribution for the analysis of microbial data. Power analysis to detect compositional differences as a function of the number of subjects and the number of reads (Table 2).
+    - La Rosa, Patricio S., J. Paul Brooks, Elena Deych, Edward L. Boone, David J. Edwards, Qin Wang, Erica Sodergren, George Weinstock, and William D. Shannon. “Hypothesis Testing and Power Calculations for Taxonomic-Based Human Microbiome Data.” PloS One 7, no. 12 (2012): e52078. https://doi.org/10.1371/journal.pone.0052078.
+
 
 ## Data
 

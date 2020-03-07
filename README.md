@@ -54,17 +54,17 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `microbiomeSeq` - An R package for microbial community analysis in an environmental context. GitHub, https://github.com/umerijaz/microbiomeSeq, and tutorial, http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html
 
+- `WHAM!` - data exploration, clustering, visualization, differential expression analysis (ANOVA-like). Input format uses bioBakery pipeline output. Shiny app, https://ruggleslab.shinyapps.io/wham_v1/, GitHub, https://github.com/ruggleslab/jukebox/tree/master/wham_v1
+    - Devlin, Joseph C., Thomas Battaglia, Martin J. Blaser, and Kelly V. Ruggles. “WHAM!: A Web-Based Visualization Suite for User-Defined Analysis of Metagenomic Shotgun Sequencing Data.” BMC Genomics 19, no. 1 (June 25, 2018): 493. https://doi.org/10.1186/s12864-018-4870-z.
+
 - `Metaviz` - visual exploratory data analysis of annotated microbiome data. Java/D3 implementation. Imports metagenomeSeq object, works with phyloseq objects. Web interface with 33 demo datasets, http://metaviz.cbcb.umd.edu/, `metavizr` R package, https://www.bioconductor.org/packages/release/bioc/html/metavizr.html. Docker https://epiviz.github.io/tutorials/metaviz/usingDocker/. GitHub, https://github.com/epiviz/metavizr. Documentation, https://epiviz.github.io/tutorials/metaviz/
     - Wagner, Justin, Florin Chelaru, Jayaram Kancherla, Joseph N Paulson, Alexander Zhang, Victor Felix, Anup Mahurkar, Niklas Elmqvist, and Héctor Corrada Bravo. “Metaviz: Interactive Statistical and Visual Analysis of Metagenomic Data.” Nucleic Acids Research 46, no. 6 (April 6, 2018): 2777–87. https://doi.org/10.1093/nar/gky136.
  
-- `phyloseq` R package for import of the most OTU clustering data formats, preprocessing (normalization, standartization, subsampling, filtering), visualization (various definitions of distance, dimensionality reduction methods), and analysis (comparative) of microbiome data. phyloseq-class with four components (otu_table, sample_data, tax_table, phy_tree). Plotting functions using ggplot2 graphics. http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html, http://joey711.github.io/phyloseq/, https://github.com/joey711/phyloseq
-    - McMurdie, Paul J., and Susan Holmes. “Phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data.” Edited by Michael Watson. PLoS ONE 8, no. 4 (April 22, 2013): e61217. https://doi.org/10.1371/journal.pone.0061217.
-
 - Shiny-phyloseq app. http://joey711.github.io/shiny-phyloseq/
     - McMurdie, P. J., and S. Holmes. “Shiny-Phyloseq: Web Application for Interactive Microbiome Analysis with Provenance Tracking.” Bioinformatics 31, no. 2 (January 15, 2015): 282–83. https://doi.org/10.1093/bioinformatics/btu616.
 
-- `WHAM!` - data exploration, clustering, visualization, differential expression analysis (ANOVA-like). Input format uses bioBakery pipeline output. Shiny app, https://ruggleslab.shinyapps.io/wham_v1/, GitHub, https://github.com/ruggleslab/jukebox/tree/master/wham_v1
-    - Devlin, Joseph C., Thomas Battaglia, Martin J. Blaser, and Kelly V. Ruggles. “WHAM!: A Web-Based Visualization Suite for User-Defined Analysis of Metagenomic Shotgun Sequencing Data.” BMC Genomics 19, no. 1 (June 25, 2018): 493. https://doi.org/10.1186/s12864-018-4870-z.
+- `phyloseq` R package for import of the most OTU clustering data formats, preprocessing (normalization, standartization, subsampling, filtering), visualization (various definitions of distance, dimensionality reduction methods), and analysis (comparative) of microbiome data. phyloseq-class with four components (otu_table, sample_data, tax_table, phy_tree). Plotting functions using ggplot2 graphics. http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html, http://joey711.github.io/phyloseq/, https://github.com/joey711/phyloseq
+    - McMurdie, Paul J., and Susan Holmes. “Phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data.” Edited by Michael Watson. PLoS ONE 8, no. 4 (April 22, 2013): e61217. https://doi.org/10.1371/journal.pone.0061217.
 
 ### Integrative analysis
 

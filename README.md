@@ -17,6 +17,8 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 
 ## Pipelines
 
+- `MicrobiotaProcess` - an R package for analysis, visualization and biomarker discovery of microbiome. Input - dada2 or qiime2 processed data. https://github.com/YuLab-SMU/MicrobiotaProcess
+
 - ATLAS - Three commands to start analysing your metagenome data. Documentation, https://metagenome-atlas.readthedocs.io/en/latest/, GitHub, https://github.com/metagenome-atlas/atlas
     - ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data Silas Kieser, Joseph Brown, Evgeny M Zdobnov, Mirko Trajkovski, Lee Ann McCue bioRxiv 737528; August 2019 doi: https://doi.org/10.1101/737528
 

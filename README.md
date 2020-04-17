@@ -1,6 +1,8 @@
 # A continually expanding collection of microbiome analysis tools
 
-These notes are not intended to be comprehensive. They include notes about methods, packages and tools I am learing and/or would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
+These notes are not intended to be comprehensive. They include notes about methods, packages and tools I am learing and/or would like to explore. The tools are in process of being listed as newest on top. 
+
+For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
 
 # Table of content
 
@@ -16,34 +18,37 @@ These notes are not intended to be comprehensive. They include notes about metho
 ## Pipelines
 
 - ATLAS - Three commands to start analysing your metagenome data. Documentation, https://metagenome-atlas.readthedocs.io/en/latest/, GitHub, https://github.com/metagenome-atlas/atlas
-
-- `F1000_workflow` - Microbiome workflow. RSV instead of OTU. Data preprocessing from raw reads. DADA2 pipeline, ASV summary tables using RDP (Greengenes and SILVA are available), phylogenetic tree reconstruction (pangorn). phyloseq downstream analysis, from filtering to agglomeration, transformation, various ordination visualizations (from PCoA, DPCoA, rank PCA, to CCA), supervised learning, graph-based visualization and testing, multi-omics analyses. https://github.com/spholmes/F1000_workflow
-    - Callahan, Ben J., Kris Sankaran, Julia A. Fukuyama, Paul J. McMurdie, and Susan P. Holmes. “Bioconductor Workflow for Microbiome Data Analysis: From Raw Reads to Community Analyses.” F1000Research 5 (2016): 1492. https://doi.org/10.12688/f1000research.8986.2.
-    
-- `bioBakery` - an environment for metagenomics analysis. VM running on Vagrantr/VirtualBox, Docker image, Google Cloud and Amazon Machine Image. Homebrew/Linuxbrew installation. AnADAMA2 controls the workflows. Wiki, https://bitbucket.org/biobakery/biobakery/wiki/Home, workflows and tutorials, http://huttenhower.sph.harvard.edu/biobakery_workflows
-    - McIver, Lauren J, Galeb Abu-Ali, Eric A Franzosa, Randall Schwager, Xochitl C Morgan, Levi Waldron, Nicola Segata, and Curtis Huttenhower. “BioBakery: A Meta’omic Analysis Environment.” Edited by John Hancock. Bioinformatics 34, no. 7 (April 1, 2018): 1235–37. https://doi.org/10.1093/bioinformatics/btx754.
-
-- `DADA2` - resolves sequencing errors and reconstructs sequences for finer-resolution clustering. Complete pipeline to process PI FASTQ into merged, denoised, chimera-free, error-corrected sample sequences. The error model quantifies the rate $\lambda_{ij}$ at which an amplicon read with sequence $i$ is produced from sample sequence $j$ as a function of sequence composition and quality, Poisson distribution. The NCBI RefSeq 16S rrna database (RefSeq) and the Genome Taxonomy Database (GTDB) are both now available to use with dada2's assignTaxonomy function! https://zenodo.org/record/2541239#.XEyoLc9Kjfa. DADA2 page: https://github.com/benjjneb/dada2. A DADA2 workflow for Big Data, https://benjjneb.github.io/dada2/bigdata.html
-    - Callahan, Benjamin J., Paul J. McMurdie, Michael J. Rosen, Andrew W. Han, Amy Jo A. Johnson, and Susan P. Holmes. “DADA2: High-Resolution Sample Inference from Illumina Amplicon Data.” Nature Methods 13, no. 7 (2016): 581–83. https://doi.org/10.1038/nmeth.3869.
-
-- `Deblur` - resolves Illumina sequencing errors and creates sub-operational taxonomic unit (sOTU) clusters. Operates on individual samples. Plugin for QIIME2 exists. Competing methods - DADA2, UNOISE2. Methods in the supplementary text S1. https://github.com/biocore/deblur
-    - Amir, Amnon, Daniel McDonald, Jose A. Navas-Molina, Evguenia Kopylova, James T. Morton, Zhenjiang Zech Xu, Eric P. Kightley, et al. “Deblur Rapidly Resolves Single-Nucleotide Community Sequence Patterns.” Edited by Jack A. Gilbert. MSystems 2, no. 2 (April 25, 2017). https://doi.org/10.1128/mSystems.00191-16.
+    - ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data Silas Kieser, Joseph Brown, Evgeny M Zdobnov, Mirko Trajkovski, Lee Ann McCue bioRxiv 737528; August 2019 doi: https://doi.org/10.1101/737528
 
 - `HiMAP` - high-resolution microbial analysis pipeline for 16S data analysis. Wraps many DADA2 functions. Comparison with DADA2, QIIME, detects more species. https://github.com/taolonglab/himap
     - Segota, Igor, and Tao Long. “A High-Resolution Pipeline for 16S-Sequencing Identifies Bacterial Strains in Human Microbiome.” BioRxiv, March 4, 2019. https://doi.org/10.1101/565572.
+
+- `SqueezeMeta` - a pipeline for metagenomics/metatranscriptomics for co-assembly (SPAdes, Canu), gene and rRNA prediction (prodigal, RDP classifier), binning, gene abundance estimation, taxonomic annotation (fast LCA). Support for MinION nanopore sequencing data (long, error-prone reads). Table 1 - comparison with other pipelines. https://github.com/jtamames/SqueezeMeta
+    - Tamames, Javier, and Fernando Puente-Sánchez. “SqueezeMeta, A Highly Portable, Fully Automatic Metagenomic Analysis Pipeline.” Frontiers in Microbiology 9 (January 24, 2019): 3349. https://doi.org/10.3389/fmicb.2018.03349.
 
 - `HUMAnN2`: The HMP Unified Metabolic Analysis Network 2 - functional profiling and pathway reconstruction of metagenomes. Tiered approach: 1) Screening for known species with MetaPhlAn2; 2) mapping against pangenomes; 3) mapping against protein sequences. These mappings can help to assign metabolic and functional annotations. http://huttenhower.sph.harvard.edu/humann2
     - Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15, no. 11 (November 2018): 962–68. https://doi.org/10.1038/s41592-018-0176-y.
 
 - `MetaMap` - microbial composition in host's RNA-seq data, a resource and a pipeline. Pipeline, https://www.protocols.io/view/metamap-pipeline-msec6be/metadata, Data and R tutorial, https://github.com/theislab/MetaMap
-    -  Simon LM., et al., Theis FJ. MetaMap: an atlas of metatranscriptomic reads in human disease-related RNA-seq data. https://academic.oup.com/gigascience/article/7/6/giy070/5036539
+    -  Simon LM., et al., Theis FJ. MetaMap: an atlas of metatranscriptomic reads in human disease-related RNA-seq data. Gigascience, Jun 1 (2018) https://academic.oup.com/gigascience/article/7/6/giy070/5036539
 
-- `microbial-rnaseq` - microbial composition from host's RNA-seq data, https://github.com/FredHutch/microbial-rnaseq
+- `bioBakery` - an environment for metagenomics analysis. VM running on Vagrantr/VirtualBox, Docker image, Google Cloud and Amazon Machine Image. Homebrew/Linuxbrew installation. AnADAMA2 controls the workflows. Wiki, https://bitbucket.org/biobakery/biobakery/wiki/Home, workflows and tutorials, http://huttenhower.sph.harvard.edu/biobakery_workflows
+    - McIver, Lauren J, Galeb Abu-Ali, Eric A Franzosa, Randall Schwager, Xochitl C Morgan, Levi Waldron, Nicola Segata, and Curtis Huttenhower. “BioBakery: A Meta’omic Analysis Environment.” Edited by John Hancock. Bioinformatics 34, no. 7 (April 1, 2018): 1235–37. https://doi.org/10.1093/bioinformatics/btx754.
 
 - `Microbiome Helper` - wrapper scripts and tutorials for metagenomics analysis. https://github.com/LangilleLab/microbiome_helper/wiki.
     - Comeau, André M., Gavin M. Douglas, and Morgan G. I. Langille. “Microbiome Helper: A Custom and Streamlined Workflow for Microbiome Research.” Edited by Jonathan Eisen. MSystems 2, no. 1 (February 28, 2017). https://doi.org/10.1128/mSystems.00127-16.
 
-- `SqueezeMeta` - a pipeline for metagenomics/metatranscriptomics for co-assembly (SPAdes, Canu), gene and rRNA prediction (prodigal, RDP classifier), binning, gene abundance estimation, taxonomic annotation (fast LCA). Support for MinION nanopore sequencing data (long, error-prone reads). Table 1 - comparison with other pipelines. https://github.com/jtamames/SqueezeMeta
+- `F1000_workflow` - Microbiome workflow. RSV instead of OTU. Data preprocessing from raw reads. DADA2 pipeline, ASV summary tables using RDP (Greengenes and SILVA are available), phylogenetic tree reconstruction (pangorn). phyloseq downstream analysis, from filtering to agglomeration, transformation, various ordination visualizations (from PCoA, DPCoA, rank PCA, to CCA), supervised learning, graph-based visualization and testing, multi-omics analyses. https://github.com/spholmes/F1000_workflow
+    - Callahan, Ben J., Kris Sankaran, Julia A. Fukuyama, Paul J. McMurdie, and Susan P. Holmes. “Bioconductor Workflow for Microbiome Data Analysis: From Raw Reads to Community Analyses.” F1000Research 5 (2016): 1492. https://doi.org/10.12688/f1000research.8986.2.
+    
+- `Deblur` - resolves Illumina sequencing errors and creates sub-operational taxonomic unit (sOTU) clusters. Operates on individual samples. Plugin for QIIME2 exists. Competing methods - DADA2, UNOISE2. Methods in the supplementary text S1. https://github.com/biocore/deblur
+    - Amir, Amnon, Daniel McDonald, Jose A. Navas-Molina, Evguenia Kopylova, James T. Morton, Zhenjiang Zech Xu, Eric P. Kightley, et al. “Deblur Rapidly Resolves Single-Nucleotide Community Sequence Patterns.” Edited by Jack A. Gilbert. MSystems 2, no. 2 (April 25, 2017). https://doi.org/10.1128/mSystems.00191-16.
+
+- `DADA2` - resolves sequencing errors and reconstructs sequences for finer-resolution clustering. Complete pipeline to process PI FASTQ into merged, denoised, chimera-free, error-corrected sample sequences. The error model quantifies the rate $\lambda_{ij}$ at which an amplicon read with sequence $i$ is produced from sample sequence $j$ as a function of sequence composition and quality, Poisson distribution. The NCBI RefSeq 16S rrna database (RefSeq) and the Genome Taxonomy Database (GTDB) are both now available to use with dada2's assignTaxonomy function! https://zenodo.org/record/2541239#.XEyoLc9Kjfa. DADA2 page: https://github.com/benjjneb/dada2. A DADA2 workflow for Big Data, https://benjjneb.github.io/dada2/bigdata.html
+    - Callahan, Benjamin J., Paul J. McMurdie, Michael J. Rosen, Andrew W. Han, Amy Jo A. Johnson, and Susan P. Holmes. “DADA2: High-Resolution Sample Inference from Illumina Amplicon Data.” Nature Methods 13, no. 7 (2016): 581–83. https://doi.org/10.1038/nmeth.3869.
+
+- `microbial-rnaseq` - microbial composition from host's RNA-seq data, https://github.com/FredHutch/microbial-rnaseq
+
 
 ## Downstream analysis
 

@@ -47,6 +47,9 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 - `DADA2` - resolves sequencing errors and reconstructs sequences for finer-resolution clustering. Complete pipeline to process PI FASTQ into merged, denoised, chimera-free, error-corrected sample sequences. The error model quantifies the rate $\lambda_{ij}$ at which an amplicon read with sequence $i$ is produced from sample sequence $j$ as a function of sequence composition and quality, Poisson distribution. The NCBI RefSeq 16S rrna database (RefSeq) and the Genome Taxonomy Database (GTDB) are both now available to use with dada2's assignTaxonomy function! https://zenodo.org/record/2541239#.XEyoLc9Kjfa. DADA2 page: https://github.com/benjjneb/dada2. A DADA2 workflow for Big Data, https://benjjneb.github.io/dada2/bigdata.html
     - Callahan, Benjamin J., Paul J. McMurdie, Michael J. Rosen, Andrew W. Han, Amy Jo A. Johnson, and Susan P. Holmes. “DADA2: High-Resolution Sample Inference from Illumina Amplicon Data.” Nature Methods 13, no. 7 (2016): 581–83. https://doi.org/10.1038/nmeth.3869.
 
+- `QIIME2` - gold-standard pipeline for multiple microbiome-related analyses. https://qiime2.org/
+    - Caporaso, J Gregory, Justin Kuczynski, Jesse Stombaugh, Kyle Bittinger, Frederic D Bushman, Elizabeth K Costello, Noah Fierer, et al. “QIIME Allows Analysis of High-Throughput Community Sequencing Data.” Nature Methods 7, no. 5 (May 2010): 335–36. https://doi.org/10.1038/nmeth.f.303.
+
 - `microbial-rnaseq` - microbial composition from host's RNA-seq data, https://github.com/FredHutch/microbial-rnaseq
 
 

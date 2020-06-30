@@ -60,6 +60,9 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 - `Calour` - Heatmap-based visual exploration of microbiome data. Input - sOTU table (Deblur-processed) and phenodata. Normalization,sorting, filtering, interface with annotation databases, machine learning methods from scikit-learn. Python, Jupyter notebooks. http://biocore.github.io/calour/
     - Xu, Z.Z., Amir, A., Sanders, J., Zhu, Q., Morton, J.T., Bletz, M.C., Tripathi, A., Huang, S., McDonald, D., Jiang, L., et al. (2019). Calour: an Interactive, Microbe-Centric Analysis Tool. MSystems 4, e00269-18.
 
+- [Decontam](https://github.com/benjjneb/decontam) - an R package to remove contaminating reads from meta-genomic sequencing. Removes high-frequency contaminants and sequences from contaminating taxa (higher prevalence). Helps to reduce variability due to sequencing center or DNA extraction kit. https://github.com/benjjneb/decontam, [Vignette](https://benjjneb.github.io/decontam/vignettes/decontam_intro.html)
+    - Davis, Nicole M., Diana M. Proctor, Susan P. Holmes, David A. Relman, and Benjamin J. Callahan. “Simple Statistical Identification and Removal of Contaminant Sequences in Marker-Gene and Metagenomics Data.” Microbiome 6, no. 1 (December 2018). https://doi.org/10.1186/s40168-018-0605-2.
+
 - `microbiome` R package with rich set of functions for microbiome analysis, visualization, statistical analysis. Supports phyloseq objects. Leo Lahti, Sudarshan Shetty et al. (2017). Tools for microbiome analysis in R. Version 1.5.23. URL: http://microbiome.github.com/microbiome
 
 - `microbiomeSeq` - An R package for microbial community analysis in an environmental context. GitHub, https://github.com/umerijaz/microbiomeSeq, and tutorial, http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html

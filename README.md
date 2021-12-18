@@ -17,6 +17,11 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 
 ## Pipelines
 
+- [QIIME 2](https://qiime2.org/) - microbiome bioinformatics platform. [Plugin architecture](https://library.qiime2.org/) supporting latest-generation tools for different technologies and pipelines. [Interactive visualization tools](https://view.qiime2.org/). Software Development Kit [SDK](https://dev.qiime2.org/latest/). API and CLI interfaces, CWL wrapper available. [GitHub](https://github.com/qiime2/qiime2). <details>
+    <summary>Paper</summary>
+    Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. “Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using QIIME 2.” Nature Biotechnology, July 24, 2019. https://doi.org/10.1038/s41587-019-0209-9.
+</details>
+
 - `MicrobiotaProcess` - an R package for analysis, visualization and biomarker discovery of microbiome. Input - dada2 or qiime2 processed data. https://github.com/YuLab-SMU/MicrobiotaProcess
 
 - ATLAS - Three commands to start analysing your metagenome data. Documentation, https://metagenome-atlas.readthedocs.io/en/latest/, GitHub, https://github.com/metagenome-atlas/atlas
@@ -48,9 +53,6 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 
 - `DADA2` - resolves sequencing errors and reconstructs sequences for finer-resolution clustering. Complete pipeline to process PI FASTQ into merged, denoised, chimera-free, error-corrected sample sequences. The error model quantifies the rate $\lambda_{ij}$ at which an amplicon read with sequence $i$ is produced from sample sequence $j$ as a function of sequence composition and quality, Poisson distribution. The NCBI RefSeq 16S rrna database (RefSeq) and the Genome Taxonomy Database (GTDB) are both now available to use with dada2's assignTaxonomy function! https://zenodo.org/record/2541239#.XEyoLc9Kjfa. DADA2 page: https://github.com/benjjneb/dada2. A DADA2 workflow for Big Data, https://benjjneb.github.io/dada2/bigdata.html
     - Callahan, Benjamin J., Paul J. McMurdie, Michael J. Rosen, Andrew W. Han, Amy Jo A. Johnson, and Susan P. Holmes. “DADA2: High-Resolution Sample Inference from Illumina Amplicon Data.” Nature Methods 13, no. 7 (2016): 581–83. https://doi.org/10.1038/nmeth.3869.
-
-- `QIIME2` - gold-standard pipeline for multiple microbiome-related analyses. https://qiime2.org/
-    - Caporaso, J Gregory, Justin Kuczynski, Jesse Stombaugh, Kyle Bittinger, Frederic D Bushman, Elizabeth K Costello, Noah Fierer, et al. “QIIME Allows Analysis of High-Throughput Community Sequencing Data.” Nature Methods 7, no. 5 (May 2010): 335–36. https://doi.org/10.1038/nmeth.f.303.
 
 - `microbial-rnaseq` - microbial composition from host's RNA-seq data, https://github.com/FredHutch/microbial-rnaseq
 

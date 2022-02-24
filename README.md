@@ -15,6 +15,8 @@ For a comprehensive overview of the subject, consider [other bioinformatics reso
 * [Data](#data)
 * [Misc](#misc)
 
+- [awesome-microbes](https://github.com/stevetsa/awesome-microbes) - List of computational resources for analyzing microbial sequencing data. Databases, tools, publications. [Tweet](https://twitter.com/seandavis12/status/1495757150760570886?s=20&t=1dQPuanBrvUUlP_g-Uo9jQ)
+
 ## Pipelines
 
 - [QIIME 2](https://qiime2.org/) - microbiome bioinformatics platform. [Plugin architecture](https://library.qiime2.org/) supporting latest-generation tools for different technologies and pipelines. [Interactive visualization tools](https://view.qiime2.org/). Software Development Kit [SDK](https://dev.qiime2.org/latest/). API and CLI interfaces, CWL wrapper available. [GitHub](https://github.com/qiime2/qiime2). <details>
